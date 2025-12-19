@@ -1,224 +1,89 @@
-# NCTC Platform Mock-up
+# NCTC Platform 🇪🇬
 
-A comprehensive front-end mock-up for the National Center for Technology Commercialization (NCTC) platform. This application provides a complete interface for managing Egypt's innovation ecosystem across OTCs (Office of Technology Commercialization), clusters, and technology transfer activities.
+> Egyptian National Center for Technology Commercialization Management System
 
-## 🎯 Features
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)](https://nctcxotcportal-mio39owg1-waseemghaly-progressiosos-projects.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/WGhaly/nctc-platform)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat&logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
 
-### Landing Page
-- Hero section introducing the NCTC platform
-- Platform statistics and key metrics
-- Feature highlights (OTC Network, 6×6 Matrix, Cluster Coordination, etc.)
-- Portal selection for NCTC and OTC users
+## 📋 Overview
 
-### Authentication
-- Login page with prefilled demo credentials
-- Registration page for new users
-- Role-based access control (NCTC Staff, OTC Admin, Cluster Coordinator)
+A comprehensive web application for managing Egypt's National Center for Technology Commercialization (NCTC) ecosystem. The platform coordinates activities across multiple Office of Technology Commercialization (OTC) units, manages technology transfer processes from disclosure to commercialization, and facilitates collaboration between universities and research institutions across Egypt.
 
-### NCTC Portal
-Complete management interface for NCTC staff including:
-- **Dashboard**: Overview of OTCs, projects, revenue, and performance metrics
-- **OTC Management**: Applications, matrix assignments, and funding
-- **Performance Monitoring**: Reviews, KPIs, and OTC-specific performance tracking
-- **Training Management**: Training programs and capacity building
-- **Cluster Management**: Six cluster coordination (Engineering, ICT, Life Sciences, Physical Sciences, Health Sciences, Environmental)
-- **Gap Analysis**: Gap identification and resolution tracking
-- **Platform Administration**: System configuration and user management
-- **Quality & Compliance**: Quality standards and compliance monitoring
-- **Reports**: Comprehensive reporting and analytics
+## 🚀 Live Demo
 
-### OTC Portal
-Interface for OTC administrators including:
-- **Dashboard**: OTC-specific metrics and activities
-- **Disclosure Management**: Submit and track invention disclosures
-- **IP Management**: Patent and IP portfolio management
-- **Project Management**: Commercialization projects and licensing
-- **Services**: Technology transfer services and requests
-- **Reporting**: OTC performance reporting
-- **Collaboration Hub**: Inter-OTC collaboration and knowledge sharing
-- **Resources**: Documents, templates, and guidelines
-- **Matrix Positions**: Cluster and pillar assignments
+**Production URL:** [https://nctcxotcportal-mio39owg1-waseemghaly-progressiosos-projects.vercel.app](https://nctcxotcportal-mio39owg1-waseemghaly-progressiosos-projects.vercel.app)
 
-### Cluster Coordinator Portal
-Interface for cluster coordinators including:
-- **Dashboard**: Cluster-specific overview
-- **Cluster Management**: Manage cluster activities and members
-- **Reports**: Cluster performance and activity reports
+**GitHub Repository:** [https://github.com/WGhaly/nctc-platform](https://github.com/WGhaly/nctc-platform)
 
-## 🛠 Tech Stack
+## ✨ Features
 
-- **React**: 18.3.1 (latest stable)
-- **React Router**: 6.28.0 (v6 for proven stability)
-- **Vite**: 6.0.0 (fast build tool)
-- **Tailwind CSS**: 3.4.15 (utility-first CSS)
-- **Lucide React**: 0.460.0 (icons)
-- **Recharts**: 2.13.3 (data visualization)
-- **React Hook Form**: 7.54.2 (form management)
+### 🏛️ NCTC Core Functions
+- **OTC Application Management** - Complete 60-day review workflow with 6×6 assessment matrix
+- **Matrix-Based Assignments** - 36-position matrix across 6 functions and 6 clusters
+- **Funding Management** - 2-year funding cycles with 4 installments and KPI-based disbursement
+- **Performance Monitoring** - Real-time dashboards with intervention workflows
+- **Training Programs** - 5-day onboarding and ongoing certification tracking
+- **Gap Management** - Systematic identification and closure tracking
 
-All versions are carefully selected for compatibility and stability.
+### 🏢 OTC Operations
+- **Technology Disclosure Management** - 45-day evaluation timeline with tri-section assessment
+- **IP Portfolio Tracking** - Patent and trademark lifecycle management
+- **Pathway Selection** - TRL-based technology evaluation (Licensing/Spin-Off/Sponsored Research)
+- **Project Management** - Focal point coordination with budget tracking
+- **Commercialization Workflows** - Licensing, spin-off, and sponsored research processes
+- **Inter-OTC Services** - Service request and coordination system
+- **Reporting System** - Monthly, 6-month, and 2-year comprehensive reports
 
-## 🎨 Design System
+### 🌍 Cluster Coordination
+- **Cluster Management** - 6 geographic clusters (Delta, Alexandria, Canal, Upper Egypt, Sinai, Cairo)
+- **Multi-OTC Coordination** - Cross-cluster collaboration and resource sharing
+- **Performance Reporting** - Cluster-level analytics and gap tracking
+- **Meeting Management** - Quarterly coordination meetings
 
-### Color Palette
-- **Primary Blue**: Dark blue (#1e3a8a) to light blue (#dbeafe) gradient
-- **Grays**: Neutral tones for secondary elements
-- **Gradients**: Elegant blue gradients throughout the interface
+### 🤝 Collaboration Hub
+- **Multi-OTC Projects** - Collaborative project management
+- **5-Level Conflict Resolution** - Focal Points → OTC Directors → Cluster Coordinator → NCTC Director → ASRT
 
-### Typography
-- **Font**: Inter (Google Fonts)
-- Responsive text sizing with proper hierarchy
+### 📊 Platform Operations
+- **User Management** - Role-based access control (NCTC/OTC/CC)
+- **Data Quality** - Validation and integrity monitoring
+- **Security & Compliance** - Audit trails and access controls
+- **Quality Assurance** - Semi-annual audits, CAPA workflows, enforcement actions
 
-### Components
-- Buttons: Primary (blue gradient), Secondary (gray), Outline
-- Cards: White with shadow and rounded corners
-- Badges: Color-coded status indicators
-- Forms: Clean inputs with labels and validation states
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React 18.3.1
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router v6
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+- **Version Control:** GitHub
 
 ## 📦 Installation
 
-### Prerequisites
-- Node.js 18+ installed
-- npm or yarn package manager
+```bash
+# Clone the repository
+git clone https://github.com/WGhaly/nctc-platform.git
 
-### Setup
-1. Navigate to the project directory:
-   ```bash
-   cd nctc-platform
-   ```
+# Navigate to project directory
+cd nctc-platform
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser to:
-   ```
-   http://localhost:3000
-   ```
-
-## 🚀 Usage
-
-### Demo Credentials
-For quick testing, use these prefilled credentials on the login page:
-- **Email**: ahmed.hassan@nctc.gov.eg
-- **Password**: demo123
-- **Portal**: NCTC Portal
-
-### Navigation
-1. Start at the landing page (/)
-2. Click "Get Started" or "Login" button
-3. Use demo credentials or explore the register page
-4. Once logged in, navigate using the sidebar menu
-5. All forms are prefilled for demonstration
-6. All buttons route to appropriate next stages
-
-## 📁 Project Structure
-
-```
-nctc-platform/
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable components
-│   │   └── Layout/      # Header, Sidebar, ProtectedRoute
-│   ├── pages/           # Page components
-│   │   ├── Auth/        # Login, Register
-│   │   ├── NCTC/        # NCTC Portal pages
-│   │   ├── OTC/         # OTC Portal pages
-│   │   └── CC/          # Cluster Coordinator pages
-│   ├── mockData.js      # Mock data with Egyptian context
-│   ├── App.jsx          # Main router
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles & design system
-├── index.html           # HTML template
-├── vite.config.js       # Vite configuration
-├── tailwind.config.js   # Tailwind configuration
-├── postcss.config.js    # PostCSS configuration
-└── package.json         # Dependencies
-
+# Install dependencies
+npm install
 ```
 
-## 🗺 Available Routes
+## 🚀 Running the Application
 
-### Public Routes
-- `/` - Landing page
-- `/login` - Login page
-- `/register` - Registration page
+### Development Mode
+```bash
+npm run dev
+```
+The application will run on `http://localhost:3000`
 
-### NCTC Portal Routes
-- `/nctc/dashboard` - Main dashboard
-- `/nctc/otc-management/applications` - OTC applications list
-- `/nctc/otc-management/applications/:id` - Application detail
-- `/nctc/otc-management/matrix-assignments` - Matrix assignments
-- `/nctc/otc-management/funding` - Funding management
-- `/nctc/performance/dashboard` - Performance overview
-- `/nctc/performance/reviews` - Performance reviews
-- `/nctc/performance/otc/:id` - OTC-specific performance
-- `/nctc/training` - Training management
-- `/nctc/clusters` - Cluster management
-- `/nctc/gaps` - Gap analysis
-- `/nctc/platform-admin` - Platform administration
-- `/nctc/quality` - Quality & compliance
-- `/nctc/reports` - Reports
-
-### OTC Portal Routes
-- `/otc/dashboard` - OTC dashboard
-- `/otc/disclosures` - Disclosures list
-- `/otc/disclosures/:id` - Disclosure detail
-- `/otc/disclosures/new` - New disclosure
-- `/otc/disclosures/:id/evaluation` - Disclosure evaluation
-- `/otc/ip-management` - IP management
-- `/otc/projects` - Projects list
-- `/otc/projects/:id` - Project detail
-- `/otc/services` - Services list
-- `/otc/services/request` - Service request
-- `/otc/reporting` - Reporting
-- `/otc/collaboration` - Collaboration hub
-- `/otc/resources` - Resources
-- `/otc/matrix` - Matrix positions
-
-### Cluster Coordinator Routes
-- `/cc/dashboard` - CC dashboard
-- `/cc/cluster-management` - Cluster management
-- `/cc/reports` - CC reports
-
-## 🧪 Mock Data
-
-The application uses comprehensive mock data with Egyptian institutional context:
-- **OTCs**: Cairo University, Alexandria University, Ain Shams, Assiut, Mansoura
-- **Clusters**: Engineering, ICT, Life Sciences, Physical Sciences, Health Sciences, Environmental
-- **Pillars**: Academic, Lab, Pilot, Industry, Grant, Commercial
-- **Projects**: Smart grid licensing, BioPharma spin-offs, mobile learning
-- **Disclosures**: AI water monitoring, cancer drug delivery, smart agriculture
-
-All data is defined in `src/mockData.js` and can be customized as needed.
-
-## 🎯 Key Features
-
-### Role-Based Access Control
-- NCTC Staff: Full access to all NCTC portal features
-- OTC Admin: Access to OTC-specific features
-- Cluster Coordinator: Access to CC features + OTC features
-
-### Prefilled Forms
-All forms are prefilled with realistic data for demonstration purposes.
-
-### Functional Routing
-All buttons and links navigate to appropriate pages, creating a fully navigable mock-up.
-
-### Data Visualization
-Charts and graphs using Recharts for performance metrics and analytics.
-
-### Responsive Design
-Mobile-friendly interface that adapts to different screen sizes.
-
-## 🔧 Development
-
-### Build for Production
+### Production Build
 ```bash
 npm run build
 ```
@@ -228,23 +93,122 @@ npm run build
 npm run preview
 ```
 
-### Lint Code
-```bash
-npm run lint
+## 🔐 Default Login Credentials
+
+### NCTC Staff Portal
+- **Username:** `nctc_admin`
+- **Password:** `nctc123`
+- **Access:** Full system administration, OTC management, performance monitoring
+
+### OTC Staff Portal
+- **Username:** `otc_cairo`
+- **Password:** `otc123`
+- **Access:** Disclosure management, IP tracking, project management, reporting
+
+### Cluster Coordinator Portal
+- **Username:** `cc_delta`
+- **Password:** `cc123`
+- **Access:** Cluster management, multi-OTC coordination, regional reporting
+
+## 📁 Project Structure
+
+```
+nctc-platform/
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── Layout/          # Header, Sidebar, ProtectedRoute
+│   │   ├── Modal.jsx
+│   │   ├── ConfirmDialog.jsx
+│   │   └── ReportGeneratorModal.jsx
+│   ├── pages/
+│   │   ├── NCTC/            # NCTC staff portal pages
+│   │   ├── OTC/             # OTC staff portal pages
+│   │   ├── CC/              # Cluster Coordinator pages
+│   │   ├── Auth/            # Login and registration
+│   │   └── Landing.jsx      # Home page
+│   ├── utils/               # Helper functions
+│   ├── mockData.js          # Comprehensive mock data
+│   ├── App.jsx              # Main app component
+│   └── main.jsx             # Entry point
+├── public/                  # Static assets
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
 ```
 
-## 📝 Notes
+## 🎯 Key Workflows Implemented
 
-- This is a **mock-up** for demonstration purposes
-- No backend integration (all data is mocked)
-- Forms don't submit to servers
-- Authentication is simulated with local state
-- All data resets on page refresh
+### 1. OTC Application & Evaluation (NCTC-FLOW-001)
+- 60-day timeline from submission to decision
+- 6×6 assessment matrix (6 functions × 6 clusters)
+- Institutional visits and SWOT analysis
+- Final approval by NCTC Director
 
-## 📄 License
+### 2. Technology Disclosure (OTC-FLOW-001)
+- 45-day evaluation timeline
+- Three-section evaluation (technical, IP, market)
+- TRL assessment and pathway recommendation
+- Decision matrix implementation
 
-This project is developed for the NCTC initiative under ASRT (Academy of Scientific Research and Technology).
+### 3. Multi-OTC Collaboration (COLLAB-FLOW-001)
+- Lead OTC determination
+- Resource contribution tracking
+- 5-level conflict resolution escalation
+- ASRT final appeal authority
+
+### 4. Quality & Compliance (QUALITY-FLOW-001-003)
+- Semi-annual OTC audits
+- CAPA (Corrective and Preventive Action) workflow
+- 4-level enforcement: Warning → Probation → Suspension → Removal
+- 15-day appeal windows with ASRT final authority
+
+## 📊 Data Management
+
+The platform uses comprehensive mock data (`mockData.js`) covering:
+- 25+ OTC applications with full history
+- 50+ technology disclosures across multiple domains
+- 100+ active projects in various commercialization stages
+- Matrix positions, funding cycles, performance metrics
+- Training programs, gap registers, audit schedules
+- Collaboration projects and service directories
+
+## 🌐 Deployment
+
+The platform is automatically deployed to Vercel with continuous deployment from the GitHub repository.
+
+### Manual Deployment
+```bash
+# Deploy to Vercel
+vercel --prod
+```
+
+### GitHub Integration
+- Automatic deployments on push to `master` branch
+- Preview deployments for pull requests
+- Environment variable management via Vercel dashboard
+
+## 📄 Documentation
+
+Comprehensive documentation available in the `/Requirements` folder:
+- `NCTC_Master_SOP.md` - Complete system requirements
+- `NCTC_Process_Flows_Mapping.md` - All 25 process flows
+- `Comprehensive_Implementation_Audit_Report.md` - Implementation verification
+- `Implementation_Coverage_Report.md` - Feature coverage analysis
+
+## 🤝 Contributing
+
+This is a government project for the Egyptian Academy of Scientific Research and Technology (ASRT). For inquiries, please contact the NCTC administration.
+
+## 📝 License
+
+Proprietary - Egyptian Academy of Scientific Research and Technology (ASRT)
+
+## 👥 Team
+
+Developed for the National Center for Technology Commercialization (NCTC), Egyptian Academy of Scientific Research and Technology (ASRT)
 
 ---
 
-**Developed with ❤️ for Egypt's Innovation Ecosystem**
+**Built with ❤️ for Egyptian Technology Transfer Ecosystem**
